@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+h2{
+    color: yellow;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+#div-button{
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+}
+#button{
+    background-color: yellow;
+    border-radius: 10%;
+}
+.container{
+    height: 50%;
+    width: 800px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    background-color: whitesmoke;
+}
+.card-img{
+    height: 150px;
+    width: 300px;
+}
+
+.item1{
+    display: flex;
+    flex-wrap: initial;
+}
